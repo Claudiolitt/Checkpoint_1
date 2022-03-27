@@ -17,7 +17,6 @@ body{
     height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-image: url(../img/Elevador-Lacerda-background.jpg);
     background-repeat: no-repeat;
@@ -524,7 +523,7 @@ footer {
         height: 100px;
         width: 100px;
     }
-    
+
     header ul { 
         flex-direction: row;
         gap: 30px;
