@@ -43,8 +43,8 @@ header {
 header img {
     z-index: 100;
     margin-left: 10px;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     border-radius: 10px;
     transition: 2s;
     
@@ -302,6 +302,7 @@ main {
     height: 70vh;
 }
 .video-title{
+    animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,8 +335,7 @@ main {
 
 @keyframes zooming {
     0% {
-        width: 50%;
-        
+        width: 50%;        
 
     }
     50% {
@@ -519,6 +519,12 @@ footer {
 }
 @media (min-width: 1280px) {
 
+
+    header img {
+        height: 100px;
+        width: 100px;
+    }
+    
     header ul { 
         flex-direction: row;
         gap: 30px;
