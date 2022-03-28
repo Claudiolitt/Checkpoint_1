@@ -142,11 +142,11 @@
 
 
     <script type="text/javascript">
-        var counter = 1;
+        var counter = 4;
         setInterval(function () {
             document.getElementById('radio' + counter).checked = true;
-            counter++;
-            if (counter > 4) {
+            counter--;
+            if (counter < 1) {
                 counter = 1;
             }
         }, 5000);
